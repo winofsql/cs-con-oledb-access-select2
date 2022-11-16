@@ -22,7 +22,6 @@ namespace cs_con_oledb_access_select2
                 // 接続文字列の作成
                 myCon.ConnectionString = string.Format("Provider=Microsoft.ACE.OLEDB.12.0;Data Source={0};", myPath);
                 // 出力ウインドウに表示
-                // デバッグ>オプション の 『出力』で、【全てのデバッグ出力】以外を オフにする
                 Console.WriteLine(myCon.ConnectionString);
 
                 // *********************
